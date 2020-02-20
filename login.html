@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FAMS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css"
+        integrity="sha256-IvM9nJf/b5l2RoebiFno92E5ONttVyaEEsdemDC6iQA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="/js/login.js"></script>
+    <script src="/js/index.js"></script>
+
+</head>
+
+<body id="body">
+    <!-- NAVIGATION HEAD -->
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+        <a href="index.html">
+            <img class="logo" src="/img/logo.png" alt="Logo FPT" />
+        </a>
+        <a class="navbar-brand mr-auto text-white" href="index.html">FPT HR UTILITY</a>
+        <div>
+            <a class="navbar-brand text-white" href="#"><i class="fa fa-user"></i>Login</a>
+            <a class="navbar-brand text-white" href="#"><i class="fa fa-sign-out"></i>Logout</a>
+        </div>
+    </nav>
+
+    <!-- NAVIGATION LEFT -->
+    <nav class="navbar-primary">
+        <a href="#" class="btn-expand-collapse"><i class="fa fa-exchange"></i></a>
+    </nav>
+    <div class="main-content">
+        <h3>Login</h3>
+        <div class="form-inline border-top border-dark ">
+            <div class="col-md-5 col-sm-12">
+                <div class="error" id="message" hidden="true" style="color: #ff0000"></div>
+                <form action="index.html" id="frmlogin">
+                    <div class="form-group text-left">
+                        <label for="username" class="col-md-4 ">Username</label>
+                        <input type="text" class="form-control col-md-8" name="username" id="username" required>
+                    </div>
+                    <div class="form-group ">
+                        <label for="password" class="col-md-4 mt-2">Password</label>
+                        <input type="password" class="form-control col-md-8 mt-2" name="password" id="password" required>
+                    </div>
+                    <div class=" col text-right px-0">
+                        <button type="button" class="btn btn-primary col-md-3  mt-2" id="btnLogin" >Login</button>
+                        <button type="reset" class="btn btn-primary  col-md-3 mt-2">Reset</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div id="introdution" class="col-md-6 col-sm-12 mt-5">
+                <h6><b>Welcome to Fsoft HR Utility</b></h6>
+                <p>This tool is developed to help Employees, Project Managers, BJ Managers, FSU Leads, HR (SSC, BP Manager), CTC, FWA, QA,... in submitting HR-related information, approving the submitted info, monitoring status of your submissions... and furthermore.</p>
+                <a href="" id="more-info">More...</a>
+                <hr>
+                <p>The recommended web browser is <i><span style="color: dodgerblue;">G</span><span style="color: red;">o</span><span style="color:gold;">o</span><span style="color: dodgerblue;">g</span><span style="color: green;">l</span><span style="color: red;">e</span> Chrome</i>. Sorry for any inconvenience!!!</p>
+            </div>
+        </div>
+
+        </div>
+
+    </div> <!-- FOOTER -->
+    <div class="footer fixed-bottom">
+          <p class="text-center">&copy; Copyright Fresher Academy 2019</p>
+    </div>
+</body>
+
+</html>
